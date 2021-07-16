@@ -22,6 +22,16 @@ for a in a_lst:
 
 for i in range(n-1, -1, -1):
     print(num_lst[i], end = " ")
+    
+#input
+'''
+10
+10 4 2 3 6 6 7 9 8 5
+'''
+#output
+'''
+5 8 9 7 6 6 3 2 4 10
+'''
 
 
 # In[2]:
@@ -34,4 +44,14 @@ a = list(map(int, input().split()))
 
 for i in range(n-1, -1, -1):
     print(a[i], end = ' ')
+    
+#input
+'''
+10
+10 4 2 3 6 6 7 9 8 5
+'''
+#output
+'''
+5 8 9 7 6 6 3 2 4 10
+'''
 
