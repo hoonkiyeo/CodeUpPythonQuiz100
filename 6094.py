@@ -20,3 +20,13 @@ def smallest_num_in_list():
 
 print(smallest_num_in_list())
 
+#input
+'''
+10
+10 4 2 3 6 6 7 9 8 5
+'''
+#output
+'''
+2
+'''
+
