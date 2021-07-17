@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[15]:
 
 
 #sol_1
@@ -15,8 +15,17 @@ while d % a != 0 or d % b != 0 or d % c != 0:
     
 print(d)
 
+#input
+'''
+3 7 9
+'''
+#output
+'''
+63
+'''
 
-# In[11]:
+
+# In[13]:
 
 
 #sol_2
@@ -33,4 +42,12 @@ def lcm_calculator():
     return i
 
 print(lcm_calculator())
+#input
+'''
+1 1 9
+'''
+#output
+'''
+9
+'''
 
