@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[20]:
+# In[2]:
 
 
 #sol_1
@@ -21,9 +21,19 @@ for i in range(n):
     
 for i in range(1,24):
     print(d[i], end = ' ')
+    
+#input
+'''
+10
+1 3 2 2 5 6 7 4 5 9
+'''
+#output
+'''
+1 2 1 1 2 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+'''
 
 
-# In[22]:
+# In[6]:
 
 
 #sol_2
@@ -39,12 +49,22 @@ for i in a:
 
 for student in student_list:
     print(student, end = ' ')
+    
+#input
+'''
+10
+1 3 2 2 5 6 7 4 5 9
+'''
+#output
+'''
+1 2 1 1 2 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+'''
 
 
-# In[26]:
+# In[7]:
 
 
-#sol_2
+#sol_3
 
 def attendence_check():
     n = int(input())
@@ -58,4 +78,14 @@ def attendence_check():
     for student in student_list:
         print(student, end = ' ')
 attendence_check()
+
+#input
+'''
+10
+1 3 2 2 5 6 7 4 5 9
+'''
+#output
+'''
+1 2 1 1 2 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+'''
 
